@@ -1,0 +1,65 @@
+name: e_commerce
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  cloud_firestore: ^0.14.0+2
+  firebase_auth: ^0.18.0+1
+  carousel_pro: ^1.0.0
+  provider: ^4.3.2+1
+  flutter_material_pickers: ^1.7.2
+  firebase_core: ^0.5.0
+  bottom_navy_bar: ^5.5.0
+  image_picker: ^0.6.7+7
+  firebase_storage: ^4.0.0
+  badges: ^1.1.1
+
+
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.5
+
+flutter_icons:
+   android: true
+   ios: true
+   image_path: "dev_assets/logo.png"
+   adaptive_icon_background: "#f8f8f8"
+   adaptive_icon_foreground:  "dev_assets/logo_adaptive.png"
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
